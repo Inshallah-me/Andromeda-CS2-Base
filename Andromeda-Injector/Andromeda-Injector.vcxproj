@@ -31,7 +31,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(MSBuildProjectDirectory)\Andromeda-Injector\Common\Include\;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildProjectDirectory)\Andromeda-Injector\Common\Include\;$(MSBuildProjectDirectory)\Andromeda-Injector\Common\Include\3rd_party\;$(IncludePath)</IncludePath>
     <TargetName>PluginSense</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
