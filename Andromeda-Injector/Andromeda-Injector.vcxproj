@@ -51,6 +51,8 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalLibraryDirectories>$(MSBuildProjectDirectory)\;$(MSBuildProjectDirectory)\..\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>atls.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
