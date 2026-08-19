@@ -5,6 +5,7 @@
 #include "Common/Common.h"
 
 #pragma comment(lib, "BlackBone")
+#pragma comment(lib, "atls.lib")
 
 auto __forceinline PrintMessage( const char* fmt , ... ) -> void;
 
